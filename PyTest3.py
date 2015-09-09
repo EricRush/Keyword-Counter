@@ -35,28 +35,6 @@ topWords = wordCount.most_common(15)
 print topWords
 
 
-#putting data into excel document (Doesn't work yet)
-from openpyxl import Workbook
-from openpyxl import worksheet
-from openpyxl import load_workbook
-from openpyxl import range
-from openpyxl import get_column_letter
-
-
-wb = Workbook()
-wb.save('testExcel.xlsx')
-ws = wb.active
-
-r = 2
-for stats in topWords:
-	ws.cell (row=r, column=0).value = stats
-	r +=1
-
-
-
-
-
-
 
 
 
