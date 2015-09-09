@@ -4,7 +4,7 @@ from collections import Counter
 import re
 
 #Pulling all text from webpage's html file
-site= "http://liveramp.com"
+site= "http://bluelaserdesign.com"
 hdr = {'User-Agent': 'Mozilla/5.0'}
 req = urllib2.Request(site,headers=hdr)
 page = urllib2.urlopen(req)
