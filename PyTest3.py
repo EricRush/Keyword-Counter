@@ -1,4 +1,4 @@
-import urllib2, sys, string
+import urllib2, string
 from BeautifulSoup import BeautifulSoup
 from collections import Counter
 import re
